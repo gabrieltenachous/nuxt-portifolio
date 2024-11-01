@@ -21,12 +21,13 @@
   </div>
 </template>
 
-<script setup>
+<script setup> 
+
 const { error, pending, data } = await useFetch(
-  'https://api.github.com/users/piotr-jura-udemy/repos'
+  'https://api.github.com/users/gabrieltenachous/repos?per_page=50&sort=created&direction=desc'
 )
-const repos = computed(
-  () => data.value.filter(repo => repo.description)
-    .sort((a, b) => b.stargazers_count - a.stargazers_count)
+
+const repos = computed(() => 
+  data.value.sort((a, b) => b.stargazers_count - a.stargazers_count)
 )
 </script>

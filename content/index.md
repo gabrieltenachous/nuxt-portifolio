@@ -1,6 +1,6 @@
 # Hello
 
-## I'm Piotr
+## I'm Gabriel
 
 Read more [about me](/about), or see my latest [projects](/projects)
 
