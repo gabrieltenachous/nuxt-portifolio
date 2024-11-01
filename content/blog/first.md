@@ -14,6 +14,7 @@ head:
     - name: 'og:title'
       content: 'This is an OpenGraph title'
 publishedAt: 2024-07-12 17:15:00
+toc: true
 ---
 # First post on our website
 ## Introduction 
@@ -39,5 +40,4 @@ Tables:
 <html>
 	<div>Hello!</div>
 </html>
-```
-[Go to the second article](/blog/second)
+``` 

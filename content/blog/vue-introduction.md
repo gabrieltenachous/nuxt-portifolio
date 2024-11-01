@@ -7,6 +7,7 @@ head:
       content: /images/vue-logo.png
 
 publishedAt: 2023-03-12 17:15:00
+toc: true
 ---
 # Introduction to Vue 3
 ![Vue 3 Introduction](/images/vue-logo.png)
